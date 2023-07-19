@@ -10,11 +10,20 @@ internal class Program
 
         List<int> sortedNumbers = BubbleSort.BubbleSortFun(numbers);
 
-        Console.WriteLine("Sorted List:");
+        Console.WriteLine("Sorted List using BubbleSort:");
         foreach (int num in sortedNumbers)
         {
             Console.Write(num + " ");
         }
-       
+        Console.WriteLine();
+
+        List<int> sortedNumberssel = SelectionSort.SelectionSortFun(numbers);
+
+        Console.WriteLine("Sorted List using SelectionSort:");
+        foreach (int num in sortedNumberssel)
+        {
+            Console.Write(num + " ");
+        }
+
     }
 }
