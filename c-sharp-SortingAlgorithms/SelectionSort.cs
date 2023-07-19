@@ -8,8 +8,10 @@ namespace c_sharp_SortingAlgorithms
 {
     internal class SelectionSort
     {
+       
         public static List<int> SelectionSortFun(List<int> list)
         {
+            
             int n = list.Count;
             for (int i = 0; i < n - 1; i++)
             {

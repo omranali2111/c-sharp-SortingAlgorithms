@@ -24,6 +24,15 @@ internal class Program
         {
             Console.Write(num + " ");
         }
+        Console.WriteLine();
+
+        List<int> sortedNumbermerg = MergeSort.MergeSortFun(numbers);
+
+        Console.WriteLine("Sorted List using MergeSort:");
+        foreach (int num in sortedNumbermerg)
+        {
+            Console.Write(num + " ");
+        }
 
     }
 }
